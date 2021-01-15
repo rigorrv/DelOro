@@ -45,13 +45,7 @@ class IntroFragment : Fragment(R.layout.intro_fragment) {
             }
 
         } else {
-            myViewModel.checkDB()
-            myViewModel.emptySQL.observe(viewLifecycleOwner, Observer {
-                if (it)
-                    findNavController().navigate(R.id.go_login)
-                else
-                    findNavController().navigate(R.id.go_error)
-            })
+            findNavController().navigate(R.id.go_login)
         }
 
     }
