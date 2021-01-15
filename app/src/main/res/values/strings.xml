@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DelOroTheather</string>
+    <string name="AIzaSyAeuFp1lQlgYwUaKI4UDKhUwaZ6rFnPwQk">google_map_api</string>
+    <string name="title_activity_address_fragment">Map</string>
+</resources>
